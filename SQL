@@ -1,0 +1,6 @@
+Data Cleaning in World Layoffs Dataset: SQL Process Overview
+This SQL data cleaning project, executed in MySQL, aims to improve the accuracy and usability of the "world_layoffs" dataset. 
+Step 1: View the Original Table
+Before making any changes, it's essential to examine the full dataset to understand its structure. We can do this by running:
+SELECT * FROM layoffs;
+Since data cleaning often requires modifications such as removing, updating, and renaming values, it’s prudent to work on a duplicate copy of the original table. I created a new table named layoffs_staging as a working copy:
